@@ -1,0 +1,30 @@
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\appsettings.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.staticwebassets.runtime.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.exe
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.deps.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.runtimeconfig.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.dll
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\bin\Debug\net6.0\Waste Management.pdb
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.AssemblyInfoInputs.cache
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.AssemblyInfo.cs
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.csproj.CoreCompileInputs.cache
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.RazorAssemblyInfo.cache
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.RazorAssemblyInfo.cs
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets\msbuild.Waste Management.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets\msbuild.build.Waste Management.props
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Waste Management.props
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Waste Management.props
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\scopedcss\bundle\Waste Management.styles.css
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\scopedcss\projectbundle\Waste Management.bundle.scp.css
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.dll
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\refint\Waste Management.dll
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.pdb
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\Waste Management.genruntimeconfig.cache
+C:\Users\AkhilashK\source\repos\Waste Management\Waste Management\obj\Debug\net6.0\ref\Waste Management.dll

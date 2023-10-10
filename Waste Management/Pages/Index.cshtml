@@ -1,0 +1,134 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Waste Management";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #e9f7ef;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .waste-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .waste-item {
+            background-color: #ffffff;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .waste-item .waste-name {
+            font-weight: bold;
+        }
+
+        .waste-item .waste-cost {
+            color: #e74c3c; /* Red color for cost */
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .total-cost {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Waste Management</h1>
+
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Enter waste item" id="wasteNameInput">
+        <input type="number" class="form-control" placeholder="Enter cost" id="wasteCostInput">
+        <div class="input-group-append">
+            <button class="btn btn-success" type="button" onclick="addWasteItem()">Add</button>
+        </div>
+    </div>
+
+    <ul class="waste-list" id="wasteList">
+        <!-- Waste items will be dynamically added here -->
+    </ul>
+
+    <div class="total-cost">
+        Total Cost: $<span id="totalCost">0.00</span>
+    </div>
+</div>
+
+<script>
+    let totalCostValue = 0;
+
+    function updateTotalCost() {
+        const totalCostElement = document.getElementById("totalCost");
+        totalCostElement.textContent = totalCostValue.toFixed(2);
+    }
+
+    function addWasteItem() {
+        const wasteNameInput = document.getElementById("wasteNameInput");
+        const wasteCostInput = document.getElementById("wasteCostInput");
+        const wasteName = wasteNameInput.value.trim();
+        const wasteCost = parseFloat(wasteCostInput.value.trim());
+
+        if (wasteName === "" || isNaN(wasteCost)) {
+            alert("Please enter both waste name and a valid cost.");
+            return;
+        }
+
+        const wasteList = document.getElementById("wasteList");
+        const wasteItem = document.createElement("li");
+        wasteItem.className = "waste-item";
+
+        const itemName = document.createElement("span");
+        itemName.className = "waste-name";
+        itemName.textContent = wasteName;
+        wasteItem.appendChild(itemName);
+
+        const itemCost = document.createElement("span");
+        itemCost.className = "waste-cost";
+        itemCost.textContent = "$" + wasteCost.toFixed(2);
+        wasteItem.appendChild(itemCost);
+
+        const removeButton = document.createElement("button");
+        removeButton.className = "btn btn-danger";
+        removeButton.textContent = "Remove";
+        removeButton.onclick = function () {
+            wasteItem.remove();
+            totalCostValue -= wasteCost;
+            updateTotalCost();
+        };
+        wasteItem.appendChild(removeButton);
+
+        wasteList.appendChild(wasteItem);
+
+        totalCostValue += wasteCost;
+        updateTotalCost();
+
+        // Clear the input fields
+        wasteNameInput.value = "";
+        wasteCostInput.value = "";
+    }
+</script>
+
+</body>
+</html>
